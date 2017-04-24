@@ -1,0 +1,39 @@
+html{border:2px solid grey;}
+body{margin:0;padding:0;width:100%;background:#fff;font-family:Georgia;overflow-x:hidden}
+header{display:block;width:100%;}
+header img {-o-filter:grayscale(0.5);background:aqua;}
+#lo{position:absolute;margin-left:100px;font-size:72px;font-weight:900;color:#fff;padding:10px;border:10px solid #fff;opacity:0.7;}
+.App{display:block}
+.active{display:block}
+.content{margin-top:6em;color:grey;}
+.content.visually-hidden{display:none;position:absolute}
+.activeNav{background:#fff}
+
+#navigator ul{margin:0;margin-left:-39.9px;width:100%}
+#navigator ul li{display:inline-block;width:25%;float:left;list-style-type:none}
+
+button{width:100%;height:6em;display:block;font-size:1em;font-family:Georgia;font-weight:900;color:#8AB8E6;background:#D6EBFF;outline:0;border:0;opacity:.98}
+/*button:hover{font-size:0.98em;}*/
+hr{width:100%;margin:0}
+
+img{background-position:cover}
+
+footer{margin:0;height:20%;background-image:url(foooter.gif);color:grey;font-size:12px;font-weight:800;}
+footer ul{height:70%}
+footer ul li{display:inline-block;float:left;list-style-type:none;width:33%;height:100%}
+svg{width:100%;height:100%}
+a{color:grey;text-decoration:none}
+.anime {margin-right:4px;width:200px;float: left;}
+
+.anime img{max-width:400px;min-width: 200px; max-height: 100%;width:100%;padding-right:1em;}
+.anime-text {}
+.content ul {margin:0;padding:0;}
+.content ul li {display:inline-block;list-style: none;width: 100%; border:1px solid grey; padding:10px;}
+h4{position: relative;font-weight: 800;}
+
+#helloImTheProtagonist {display:block;font-family:Georgia;outline:0;font-Size:2em;width:50vw;opacity:0.4;float:left;}
+#addGenres {display:inline-block;height:2.5em;width:25vw;border:1px solid grey;}
+.chipGenre {display:inline-block;width:20%;font-size:1em;background:#DB0700;color:#fff;opacity:0.4;margin-top:20px;float-left;}
+.chipGenre button {
+  display:inline-block;float:left;background:#20000;height:1em;color:black;margin:0;
+}

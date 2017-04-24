@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+
+	<title></title>
+	<link rel="stylesheet" href="css//view.css">
+</head>
+<body>
+
+
+	<header id="header" class="">
+		<p id='lo'>Shuffle List</p>
+		<img>
+	</header>
+
+	<div id='navigator'>
+			<ul>
+				<li><button id="b1" class='apples nav activeNav'>Playlist</button></li>
+				<li><button id="b2" class='bananas nav'>About us</button></li>
+				<li><button id="b3" class='mangos nav'>donate</button></li>
+				<li><button id="b4"class='kiwi nav'> for devs</button></li>
+			</ul>
+	</div>
+
+		<div id="apples" class='content active'>
+			<input type="text" name="" id="helloImTheProtagonist">
+			<button id="addGenres">generate</button>
+				<div class="playlistModule">
+						<template  class="chipGenre">
+							<div data-id=ID>
+								<div>genre</div>
+									<button  class="remove">X</button>
+							</div>
+						</template>
+				</div>
+
+				<div id="playlistAppend">
+						
+				</div>
+
+		</div>
+
+		<div id='bananas' class='content visually-hidden'>
+				<script type="text/javascript">
+					</script>
+			</div>
+		</div>
+		<div id='mangos' class='content visually-hidden'>
+		</div>
+		<div id='kiwi' class='content visually-hidden'>
+		</div>
+
+
+
+	<footer>
+		<hr>
+		<ul>
+			<li>
+					<a href="https://twitter.com/AtlantaNico">
+					<img class='twitter svg' height='30px' width='30px' src="svgs//twitter.svg.png" alt=""> <p>my twitter</p>
+					</a>
+			</li>
+			<li>
+			<li><p id='timer'></p></li>
+		</ul>
+	</footer>
+
+
+</body>
+<!--<script src='js/jquery-2.1.4.min.js'></script>-->
+
+<script src="js/Polygon.js"></script>
+<script src='js/module.js'></script>
+<script src="js/deepLink.js"></script>
+<script src="js/loadSoundModule.js"></script>
+
+
+
+
+</html>
